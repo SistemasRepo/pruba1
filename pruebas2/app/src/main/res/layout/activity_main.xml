@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.odn.pruebas2.MainActivity">
+
+
+    <Button
+        android:id="@+id/lampara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lampara" />
+
+    <Button
+        android:id="@+id/but_tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tabhost" />
+
+    <ImageView
+        android:id="@+id/zoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/anima_load2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Cargando ..."
+        android:textColor="@android:color/white"
+        android:textSize="19sp" />
+
+
+</LinearLayout>
